@@ -31,6 +31,7 @@ const SkillsProgSpin = () => {
           ))}
         </div>
       </section>
+      <section></section>
     </div>
   );
 };

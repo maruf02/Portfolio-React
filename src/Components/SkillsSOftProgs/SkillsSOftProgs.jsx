@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SkillsSoftProgCard from "../SkillsSoftProgCard/SkillsSoftProgCard";
+import SkillsOthers from "../SkillsOthers/SkillsOthers";
 
 const SkillsSOftProgs = () => {
   const [skillsSoftProg, setSkillsSoftProg] = useState([]);
@@ -22,11 +23,12 @@ const SkillsSOftProgs = () => {
       </section>
       <section className="container mx-auto grid grid-cols-1">
         <div className="mx-10">
-          {skillsSoftProg.map((card) => (
+          {skillsSoftProg.slice(0, 6).map((card) => (
             <SkillsSoftProgCard key={card.id} card={card}></SkillsSoftProgCard>
           ))}
         </div>
       </section>
+      <SkillsOthers></SkillsOthers>
     </div>
   );
 };

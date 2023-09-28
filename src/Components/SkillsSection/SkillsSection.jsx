@@ -22,16 +22,16 @@ const SkillsSection = () => {
           </div>
           {/* skills left programming spinner */}
           {/* skills right soft+other progress bar */}
-          <div className="border grid col-span-1 grid-rows-3 gap-2">
+          <div className="border grid col-span-1  gap-2">
             {/* skills right soft progress bar */}
-            <div className="border grid row-span-2">
+            <div className="border ">
               <SkillsSOftProgs></SkillsSOftProgs>
             </div>
             {/* skills right soft progress bar */}
             {/* skills right other progress bar */}
-            <div className="border grid row-span-1">
+            {/* <div className="border ">
               <SkillsOthers></SkillsOthers>
-            </div>
+            </div> */}
             {/* skills right other progress bar */}
           </div>
           {/* skills right soft+other progress bar */}

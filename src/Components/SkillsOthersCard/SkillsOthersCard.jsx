@@ -4,20 +4,25 @@ const SkillsOthersCard = ({ card }) => {
   const { id, title, value, color } = card;
   console.log(id);
   const customStyles = {
-    "--ii": value,
     "--clr": color,
   };
   return (
-    <div>
-      <div
-        className="progress relative w-40 h-40 rounded-full my-5"
-        style={customStyles}
-      >
-        <h3 className="h3">
-          {value}
-          <span className="span">%</span>
-        </h3>
-        <h4 className="h4">{title}</h4>
+    <div className="mb-8 ">
+      <div className="skills_main">
+        <div className="skill_bar">
+          <div className="info">
+            <p
+              className="textC text-xl font-bold uppercase "
+              style={customStyles}
+            >
+              {title}
+            </p>
+            <p>{value}%</p>
+          </div>
+          <div className="bar ml-3">
+            <span className="html" style={customStyles}></span>
+          </div>
+        </div>
       </div>
     </div>
   );

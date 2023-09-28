@@ -20,8 +20,8 @@ const SkillsOthers = () => {
         </h1>
         <p className="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-4/12 lg:w-8/12 mx-auto"></p>
       </section>
-      <section className="container mx-auto  pt-5">
-        <div className=" container mx-auto flex flex-wrap justify-center align-middle text-center gap-2 lg:gap-7 ">
+      <section className="container mx-auto grid grid-cols-1">
+        <div className="mx-10">
           {/* ************* */}
 
           {skillsOthers.map((card) => (
