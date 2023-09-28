@@ -1,0 +1,94 @@
+import React from "react";
+import ProPicAnime from "../ProPicAnime/ProPicAnime";
+
+const AboutMeDetails = () => {
+  return (
+    <div>
+      <section className="">
+        <section className="text-center lg:text-left pt-20">
+          <h1 className="text-[#1affc6] text-6xl  font-f font-bold pb-5">
+            About Me
+          </h1>
+          <h3 className="text-[#79d2a6] text-2xl lg:text-3xl  font-f font-semibold pb-5">
+            Mern Stack Developer
+          </h3>
+          <p className="text-[#669999] text-base text-justify px-2">
+            As a web developer, I am a perpetual explorer of the digital realm,
+            driven by an unquenchable curiosity and an insatiable appetite for
+            innovation. My journey in web development began with an insatiable
+            fascination for technology's power to transform ideas into reality.
+            Over the years, I've honed my skills in a multitude of programming
+            languages, frameworks, and tools, equipping me with the versatility
+            to tackle a wide range of projects. Web development, to me, is not
+            just a profession; it's a constant voyage of discovery and
+            self-improvement. I embrace challenges as opportunities to expand my
+            knowledge and push the boundaries of what's possible. I'm excited
+            about the potential of technology to shape the future and am
+            dedicated to being at the forefront of this digital revolution.
+            Collaborative, adaptable, and always eager to learn, I'm
+            enthusiastic about contributing my skills to projects that make a
+            difference and create a better online world for all.
+          </p>
+          <div className="w-48 h-fit border-2 text-center bg-black rounded-full mt-5  mx-auto  lg:mx-0">
+            <button
+              className=" p-2 w-full text-base text-[#1affc6] hover:bg-gray-400 hover:rounded-full hover:text-black  "
+              onClick={() => document.getElementById("my_modal_1").showModal()}
+            >
+              See more
+            </button>
+            {/* <!-- pop up box model start #071B27--> */}
+
+            <dialog id="my_modal_1" className="modal ">
+              <div className="modal-box bg-[#071B27]">
+                {/* <!-- pop up inside style start --> */}
+                <div className="container mx-auto">
+                  {/* <!-- about me inside pop up --> */}
+                  <h1 className="text-[#1affc6] text-4xl md:text-6xl fixed sticky top-0 z-50 font-f font-bold pb-5">
+                    About Me
+                  </h1>
+                  <p className="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-11/12 lg:w-11/12 mx-auto  "></p>
+                  {/* <!-- image anime inside pop up --> */}
+                  <ProPicAnime></ProPicAnime>
+                  {/* <!-- image anime inside pop up --> */}
+                  <p className="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-11/12 lg:w-11/12 mx-auto mt-12 md:mt-12 lg:mt-24 "></p>
+                  {/* <!-- description about me inside pop up --> */}
+                  <div className="pt-10">
+                    <p className="text-[#669999] text-base text-justify px-2">
+                      As a web developer, I am a perpetual explorer of the
+                      digital realm, driven by an unquenchable curiosity and an
+                      insatiable appetite for innovation. My journey in web
+                      development began with an insatiable fascination for
+                      technology's power to transform ideas into reality. Over
+                      the years, I've honed my skills in a multitude of
+                      programming languages, frameworks, and tools, equipping me
+                      with the versatility to tackle a wide range of projects.
+                      Web development, to me, is not just a profession; it's a
+                      constant voyage of discovery and self-improvement. I
+                      embrace challenges as opportunities to expand my knowledge
+                      and push the boundaries of what's possible. I'm excited
+                      about the potential of technology to shape the future and
+                      am dedicated to being at the forefront of this digital
+                      revolution. Collaborative, adaptable, and always eager to
+                      learn, I'm enthusiastic about contributing my skills to
+                      projects that make a difference and create a better online
+                      world for all.
+                    </p>
+                  </div>
+                  {/* <!-- description about me inside pop up --> */}
+                </div>
+
+                {/* <!-- pop up inside style ends --> */}
+              </div>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
+            {/* <!-- pop up box model ends --> */}
+          </div>
+        </section>
+      </section>
+    </div>
+  );
+};
+
+export default AboutMeDetails;
