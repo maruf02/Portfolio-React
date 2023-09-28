@@ -2,11 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MenuBar from "./Components/MenuBar/MenuBar";
+import Home from "./Components/Home/Home";
+import Root from "./Components/Root/Root";
+// import Header from "./Components/Header/Header";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MenuBar></MenuBar>,
+    element: <Root></Root>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+    ],
   },
 ]);
 
