@@ -1,11 +1,6 @@
 import React from "react";
-import {
-  BsFacebook,
-  BsInstagram,
-  BsTwitter,
-  BsLinkedin,
-  BsGithub,
-} from "react-icons/bs";
+
+import IconAnime from "../IconAnime/IconAnime";
 
 const BannerIntro = () => {
   return (
@@ -28,7 +23,9 @@ const BannerIntro = () => {
             Let's work together
           </button>
         </div>
-        <div className="mx-auto pt-6  container lg:-ml-36 text-center justify-center flex gap-4 ">
+        {/* banner intro icon list */}
+        {/* banner intro icon list */}
+        {/* <div className="mx-auto pt-6  container lg:-ml-36 text-center justify-center flex gap-4 ">
           <a href="">
             <BsFacebook className="text-2xl"></BsFacebook>
           </a>
@@ -44,7 +41,8 @@ const BannerIntro = () => {
           <a href="">
             <BsGithub className="text-2xl"></BsGithub>
           </a>
-        </div>
+        </div> */}
+        <IconAnime></IconAnime>
         {/* <!-- draw line for mobile --> */}
         <p className="border-b-2 my-6 w-11/12 mx-auto md:hidden"></p>
       </section>
