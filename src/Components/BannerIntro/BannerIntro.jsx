@@ -6,7 +6,7 @@ const BannerIntro = () => {
   return (
     <div>
       <section className="">
-        <div className="text-5xl font-bold text-white text-center lg:text-left pt-9 lg:pt-24 pb-4 ">
+        <div className="text-5xl font-bold text-white text-center lg:text-left pt-0 lg:pt-24 pb-4 ">
           Maruf
         </div>
         <div className="text-xl text-center lg:text-left font-extralight text-gray-300 pb-2">

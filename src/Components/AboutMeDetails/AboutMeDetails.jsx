@@ -5,7 +5,7 @@ const AboutMeDetails = () => {
   return (
     <div>
       <section className="">
-        <section className="text-center lg:text-left pt-20">
+        <section className="text-center lg:text-left lg:pt-20">
           <h1 className="text-[#1affc6] text-6xl  font-f font-bold pb-5">
             About Me
           </h1>
@@ -50,7 +50,7 @@ const AboutMeDetails = () => {
                   {/* <!-- image anime inside pop up --> */}
                   <ProPicAnime></ProPicAnime>
                   {/* <!-- image anime inside pop up --> */}
-                  <p className="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-11/12 lg:w-11/12 mx-auto mt-12 md:mt-12 lg:mt-24 "></p>
+                  <p className="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-11/12 lg:w-11/12 mx-auto mt-0 md:mt-0 lg:mt-24 "></p>
                   {/* <!-- description about me inside pop up --> */}
                   <div className="pt-10">
                     <p className="text-[#669999] text-base text-justify px-2">

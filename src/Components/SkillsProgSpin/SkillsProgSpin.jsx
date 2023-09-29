@@ -17,10 +17,10 @@ const SkillsProgSpin = () => {
   return (
     <div>
       <section className=" mx-auto w-full  pt-10 pb-5">
-        <h1 className="text-[#79d2a6] text-5xl text-center font-f font-bold ">
+        <h1 className="text-[#79d2a6] text-3xl lg:text-5xl text-center font-f font-bold ">
           Programming Skills
         </h1>
-        <p className="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-4/12 lg:w-8/12 mx-auto"></p>
+        <p className="border-b-4 border-double border-[#79d2a6] w-3/4 md:w-4/12 lg:w-7/12 mx-auto"></p>
       </section>
       <section className="container mx-auto  pt-5">
         <div className=" container mx-auto flex flex-wrap justify-center align-middle text-center gap-2 lg:gap-7 ">
