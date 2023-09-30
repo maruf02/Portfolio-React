@@ -16,7 +16,7 @@ const ProjectCategory = ({ setSearchText }) => {
   const handleCategoryClick = (categoryTitle) => {
     setSearchText(categoryTitle); // Set the selected category in state
   };
-  console.log("selecte:", selectedCategory);
+  // console.log("selecte:", selectedCategory);
   return (
     <div>
       <section className="container mx-auto  h-fit wcontainer portfolio-container">

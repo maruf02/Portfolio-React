@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProjectCategory from "../ProjectCategory/ProjectCategory";
 import ProjectsAllCards from "../ProjectsAllCards/ProjectsAllCards";
+import { NavLink } from "react-router-dom";
 
 const ProjectsSection = () => {
   const [searchText, setSearchText] = useState("");
@@ -25,7 +26,7 @@ const ProjectsSection = () => {
                 className="btnn absolute top-[50%] left-[50%] bg-[#34347f] text-white outline-none 
                           border-none text-xl font-bold z-[9] tracking-[1px] uppercase cursor-pointer h-[44px] w-[218px] rounded-lg "
               >
-                See All Project
+                <NavLink to="/Projects">See All Project</NavLink>
               </button>
             </div>
           </div>

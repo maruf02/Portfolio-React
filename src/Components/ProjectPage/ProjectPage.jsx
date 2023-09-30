@@ -5,7 +5,7 @@ import ProjectCategory from "../ProjectCategory/ProjectCategory";
 const ProjectPage = () => {
   const [searchText, setSearchText] = useState("");
   return (
-    <div>
+    <div className="pt-12 lg:pt-14">
       <section
         className="bg-[#1B1B42] mx-auto w-full h-fit pb-16 "
         id="Portfolio"

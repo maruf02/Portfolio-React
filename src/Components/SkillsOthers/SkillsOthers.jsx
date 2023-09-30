@@ -11,7 +11,7 @@ const SkillsOthers = () => {
       .then((res) => res.json())
       .then((data) => setSkillsOthers(data));
   }, []);
-  console.log(skillsOthers);
+  // console.log(skillsOthers);
   return (
     <div>
       <section className=" mx-auto w-full  pt-10 pb-5">

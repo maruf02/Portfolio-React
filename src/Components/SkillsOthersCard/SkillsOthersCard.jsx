@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillsOthersCard = ({ card }) => {
   const { id, title, value, color } = card;
-  console.log(id);
+  // console.log(id);
   const customStyles = {
     "--clr": color,
   };
