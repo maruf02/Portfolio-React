@@ -5,6 +5,7 @@ import SkillsSection from "../SkillsSection/SkillsSection";
 import ServiceSection from "../ServiceSection/ServiceSection";
 import ProjectsSection from "../ProjectsSection/ProjectsSection";
 import MyTeamSection from "../MyTeamSection/MyTeamSection";
+import ContactSection from "../ContactSection/ContactSection";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ServiceSection></ServiceSection>
       <MyTeamSection></MyTeamSection>
       <ProjectsSection></ProjectsSection>
+      <ContactSection></ContactSection>
     </div>
   );
 };

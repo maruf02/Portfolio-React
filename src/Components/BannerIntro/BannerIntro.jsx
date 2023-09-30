@@ -9,7 +9,7 @@ const BannerIntro = () => {
         <div className="text-5xl font-bold text-white text-center lg:text-left pt-0 lg:pt-24 pb-4 ">
           Maruf
         </div>
-        <div className="text-xl text-center lg:text-left font-extralight text-gray-300 pb-2">
+        <div className=" textDev text-xl text-center lg:text-left font-extralight text-gray-300 pb-2">
           MERN stack developer
         </div>
         <hr className=" w-11/12 lg:w-8/12 lg:justify-start h-2 pb-6 mx-auto lg:mx-0" />
@@ -18,9 +18,13 @@ const BannerIntro = () => {
           web applications. Skilled in front-end and back-end technologies,
           ready to take on new challenges.
         </div>
-        <div className="w-fit h-fit border-2 bg-black rounded-full mt-5 mx-auto lg:mx-0">
-          <button className="p-2 text-base text-white hover:bg-gray-400 hover:rounded-full hover:text-black  ">
-            Let's work together
+        <div className="outer relative  h-12 w-80 rounded-[50px] mt-3 -top-2 left-2">
+          <button
+            className="btnn absolute top-[50%] left-[50%] bg-[#34347f] text-white outline-none
+                          border-none text-lg z-[9] tracking-[1px]  cursor-pointer h-[44px] w-[315px] rounded-[50px]
+                          hover:bg-lime-500"
+          >
+            Let's Work Together
           </button>
         </div>
         {/* banner intro icon list */}

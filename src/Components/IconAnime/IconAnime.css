@@ -66,6 +66,38 @@
   color: #ffffff;
 }
 
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #009999;
+  color: #ffffff;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: #cd201f;
+  color: #ffffff;
+}
+.wrapper .fiverr:hover,
+.wrapper .fiverr:hover .tooltip,
+.wrapper .fiverr:hover .tooltip::before {
+  background: #339933;
+  color: #ffffff;
+}
+
+.wrapper .skype:hover,
+.wrapper .skype:hover .tooltip,
+.wrapper .skype:hover .tooltip::before {
+  background: #289ebf;
+  color: #ffffff;
+}
+.wrapper .upwork:hover,
+.wrapper .upwork:hover .tooltip,
+.wrapper .upwork:hover .tooltip::before {
+  background: #0c99b2;
+  color: #ffffff;
+}
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
@@ -79,17 +111,9 @@
   background: #e4405f;
   color: #ffffff;
 }
-
-.wrapper .github:hover,
-.wrapper .github:hover .tooltip,
-.wrapper .github:hover .tooltip::before {
-  background: #333333;
-  color: #ffffff;
-}
-
-.wrapper .linkedin:hover,
-.wrapper .linkedin:hover .tooltip,
-.wrapper .linkedin:hover .tooltip::before {
-  background: #cd201f;
+.wrapper .instagrams:hover,
+.wrapper .instagrams:hover .tooltip,
+.wrapper .instagrams:hover .tooltip::before {
+  background: #e4405f;
   color: #ffffff;
 }

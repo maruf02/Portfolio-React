@@ -1,14 +1,36 @@
-import React from "react";
-import IconAnime from "../IconAnime/IconAnime";
+import React, { useEffect } from "react";
+import "./MyTeamSection.css";
 import {
   BsFacebook,
   BsInstagram,
   BsTwitter,
   BsLinkedin,
   BsGithub,
+  BsSkype,
 } from "react-icons/bs";
+// for back to top js code
+// for back to top js code
 
 const MyTeamSection = () => {
+  useEffect(() => {
+    let mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function () {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    };
+
+    mybutton.addEventListener("click", () => {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    });
+  }, []);
   return (
     <div>
       <section className="bg-[#1D1B34] w-full h-fit lg:h-[700px] lg:pb-40 ">
@@ -25,7 +47,7 @@ const MyTeamSection = () => {
         <section className="container mx-auto h-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 ">
           {/*team card  */}
           {/*team card-1  */}
-          <div className="profile bg-[#ffffff10] w-[300px] h-[410px] rounded-2xl cursor-pointer ml-10 mt-10">
+          <div className="TeamCard bg-[#ffffff10] w-[300px] h-[410px] rounded-2xl cursor-pointer ml-10 mt-10">
             <div className="flex items-center justify-center mt-5">
               <div className="rounded-full p-2 border-4 border-solid border-white">
                 <img
@@ -36,10 +58,10 @@ const MyTeamSection = () => {
             </div>
             <div className="flex flex-col items-center">
               <p className="text-[#79d2a6] text-4xl font-f font-bold  pt-4">
-                Maruf
+                Marfat Islam
               </p>
               <p className="text-[#79d2a6] text-xl font-f font-bold  pt-1">
-                Full Stack Developer
+                Font-end Developer
               </p>
               <div className="mx-auto   container  text-center justify-center flex gap-4 ">
                 <ul className="wrapper">
@@ -49,10 +71,10 @@ const MyTeamSection = () => {
                       <BsFacebook className="text-2xl"></BsFacebook>
                     </a>
                   </li>
-                  <li className="icon instagram">
-                    <span className="tooltip">Instagram</span>
+                  <li className="icon skype">
+                    <span className="tooltip">Skype</span>
                     <a href="#">
-                      <BsInstagram className="text-2xl"></BsInstagram>
+                      <BsSkype className="text-2xl"></BsSkype>
                     </a>
                   </li>
                   <li className="icon twitter">
@@ -79,7 +101,7 @@ const MyTeamSection = () => {
           </div>
           {/*team card-1  */}
           {/*team card-2  */}
-          <div className="profile bg-[#ffffff10] w-[300px] h-[410px] rounded-2xl cursor-pointer ml-10 mt-10">
+          <div className="TeamCard bg-[#ffffff10] w-[300px] h-[410px] rounded-2xl cursor-pointer ml-10 mt-10">
             <div className="flex items-center justify-center mt-5">
               <div className="rounded-full p-2 border-4 border-solid border-white">
                 <img
@@ -89,11 +111,11 @@ const MyTeamSection = () => {
               </div>
             </div>
             <div className="flex flex-col items-center">
-              <p className="text-[#79d2a6] text-4xl font-f font-bold  pt-4">
-                Maruf
+              <p className="text-[#79d2a6] text-2xl font-f font-bold  pt-4">
+                Masuma Khandakar
               </p>
-              <p className="text-[#79d2a6] text-xl font-f font-bold  pt-1">
-                Full Stack Developer
+              <p className="text-[#79d2a6] text-lg font-f font-bold  pt-1">
+                Wordpres+Shopify Dev
               </p>
               <div className="mx-auto   container  text-center justify-center flex gap-4 ">
                 <ul className="wrapper">
@@ -103,10 +125,10 @@ const MyTeamSection = () => {
                       <BsFacebook className="text-2xl"></BsFacebook>
                     </a>
                   </li>
-                  <li className="icon instagram">
-                    <span className="tooltip">Instagram</span>
+                  <li className="icon skype">
+                    <span className="tooltip">Skype</span>
                     <a href="#">
-                      <BsInstagram className="text-2xl"></BsInstagram>
+                      <BsSkype className="text-2xl"></BsSkype>
                     </a>
                   </li>
                   <li className="icon twitter">
@@ -133,7 +155,7 @@ const MyTeamSection = () => {
           </div>
           {/*team card-2  */}
           {/*team card-3  */}
-          <div className="profile bg-[#ffffff10] w-[300px] h-[410px] rounded-2xl cursor-pointer ml-10 mt-10">
+          <div className="TeamCard bg-[#ffffff10] w-[300px] h-[410px] rounded-2xl cursor-pointer ml-10 mt-10">
             <div className="flex items-center justify-center mt-5">
               <div className="rounded-full p-2 border-4 border-solid border-white">
                 <img
@@ -144,10 +166,10 @@ const MyTeamSection = () => {
             </div>
             <div className="flex flex-col items-center">
               <p className="text-[#79d2a6] text-4xl font-f font-bold  pt-4">
-                Maruf
+                Sagar Paul
               </p>
               <p className="text-[#79d2a6] text-xl font-f font-bold  pt-1">
-                Full Stack Developer
+                Graphics Designer
               </p>
               <div className="mx-auto   container  text-center justify-center flex gap-4 ">
                 <ul className="wrapper">
@@ -157,10 +179,10 @@ const MyTeamSection = () => {
                       <BsFacebook className="text-2xl"></BsFacebook>
                     </a>
                   </li>
-                  <li className="icon instagram">
-                    <span className="tooltip">Instagram</span>
+                  <li className="icon skype">
+                    <span className="tooltip">Skype</span>
                     <a href="#">
-                      <BsInstagram className="text-2xl"></BsInstagram>
+                      <BsSkype className="text-2xl"></BsSkype>
                     </a>
                   </li>
                   <li className="icon twitter">
@@ -187,7 +209,7 @@ const MyTeamSection = () => {
           </div>
           {/*team card-3  */}
           {/*team card-4  */}
-          <div className="profile bg-[#ffffff10] w-[300px] h-[410px] rounded-2xl cursor-pointer ml-10 mt-10">
+          <div className="TeamCard bg-[#ffffff10] w-[300px] h-[410px] rounded-2xl cursor-pointer ml-10 mt-10">
             <div className="flex items-center justify-center mt-5">
               <div className="rounded-full p-2 border-4 border-solid border-white">
                 <img
@@ -198,10 +220,10 @@ const MyTeamSection = () => {
             </div>
             <div className="flex flex-col items-center">
               <p className="text-[#79d2a6] text-4xl font-f font-bold  pt-4">
-                Maruf
+                Abbas Uddin
               </p>
               <p className="text-[#79d2a6] text-xl font-f font-bold  pt-1">
-                Full Stack Developer
+                Seo Expert
               </p>
               <div className="mx-auto   container  text-center justify-center flex gap-4 ">
                 <ul className="wrapper">
@@ -211,10 +233,10 @@ const MyTeamSection = () => {
                       <BsFacebook className="text-2xl"></BsFacebook>
                     </a>
                   </li>
-                  <li className="icon instagram">
-                    <span className="tooltip">Instagram</span>
+                  <li className="icon skype">
+                    <span className="tooltip">Skype</span>
                     <a href="#">
-                      <BsInstagram className="text-2xl"></BsInstagram>
+                      <BsSkype className="text-2xl"></BsSkype>
                     </a>
                   </li>
                   <li className="icon twitter">

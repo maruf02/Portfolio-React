@@ -1,5 +1,6 @@
 import React from "react";
 import ProPicAnime from "../ProPicAnime/ProPicAnime";
+import IconAnime from "../IconAnime/IconAnime";
 
 const AboutMeDetails = () => {
   return (
@@ -29,13 +30,30 @@ const AboutMeDetails = () => {
             enthusiastic about contributing my skills to projects that make a
             difference and create a better online world for all.
           </p>
-          <div className="w-48 h-fit border-2 text-center bg-black rounded-full mt-5  mx-auto  lg:mx-0">
-            <button
+          {/* icon section */}
+          <IconAnime></IconAnime>
+          {/* icon section */}
+
+          <div className="w-48 h-fit  text-center  rounded-full mt-5  mx-auto  lg:mx-0">
+            {/* <button
               className=" p-2 w-full text-base text-[#1affc6] hover:bg-gray-400 hover:rounded-full hover:text-black  "
               onClick={() => document.getElementById("my_modal_1").showModal()}
             >
               See more
-            </button>
+            </button> */}
+
+            <div className="outer relative  h-12 w-40 rounded-[50px] mt-3 -top-2 left-2">
+              <button
+                className="btnn absolute top-[50%] left-[50%] bg-[#34347f] text-white outline-none
+                          border-none text-lg z-[9] tracking-[1px]  cursor-pointer h-[44px] w-[153px] rounded-[50px]
+                          hover:bg-lime-500"
+                onClick={() =>
+                  document.getElementById("my_modal_1").showModal()
+                }
+              >
+                See more
+              </button>
+            </div>
             {/* <!-- pop up box model start #071B27--> */}
 
             <dialog id="my_modal_1" className="modal ">

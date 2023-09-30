@@ -1,15 +1,6 @@
 .login-form-container {
-  position: relative;
-  width: 400px;
-  height: 470px;
-  max-width: 400px;
-  max-height: 470px;
-  background: #040717;
   border-radius: 50px 0px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
 }
 
 .login-form-container::before {
@@ -51,13 +42,7 @@
 }
 
 .login-form {
-  position: absolute;
-  content: "";
-  background: #0c1022;
   border-radius: 50px 0px;
-  inset: 5px;
-  padding: 20px 18px;
-  z-index: 10;
 }
 
 /* ************************************ */
@@ -66,15 +51,8 @@
 /* ************************************ */
 
 .img-container {
-  position: relative;
-  width: 100%;
-  height: 250px;
-  background: #040717;
   border-radius: 50px 0px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
 }
 
 .img-container::before {
@@ -116,32 +94,55 @@
 }
 
 .img-form {
-  position: absolute;
-  content: "";
-  background: #0c1022;
   border-radius: 50px 0px;
-  inset: 5px;
-  padding: 20px 18px;
-  z-index: 10;
+}
+.img-form img {
+  content: "";
+  border-radius: 50px 0px;
 }
 
 .txt-container {
-  position: relative;
-  width: 100%;
-  height: 165px;
-  background: #040717;
-  border-radius: 0px 50px;
-  margin-top: 10px;
-  padding: 15px;
-  color: #00ccff;
+  border-radius: 20px 50px;
+}
+.allCard:hover {
+  backdrop-filter: blur(3vw);
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  /* background-color: #ffffff1a; */
+  background-color: #dc64641a;
+  transform: translateY(-5%); /*total hove transition*/
+  transition: 1s;
+  border: 2px solid #45cec9;
+  border-radius: 8px;
+}
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */
+.outer {
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  animation: rotate 1.5s linear infinite;
 }
 
-.profile:hover {
+.btnn {
+  transform: translate(-50%, -50%);
+}
+
+.outer:hover {
+  background: linear-gradient(#ff66cc, #ff66cc, #ff00e0);
+  animation: rotate 1.5s linear infinite;
   backdrop-filter: blur(3vw);
-  background-color: #dc64641a;
-  transform: translateY(-5%);
+  background-color: #34347f;
+  transform: translateY(-15%);
   transition: 1s;
-  border: 4px solid #009999;
-  border-radius: 50px 0px;
-  margin: 20px;
+}
+
+@keyframes rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
