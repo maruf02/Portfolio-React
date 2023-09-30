@@ -3,6 +3,7 @@ import { AiFillHome, AiFillSetting } from "react-icons/ai";
 import { FaUserAlt, FaTools, FaBriefcase } from "react-icons/fa";
 import { BsFillChatSquareDotsFill } from "react-icons/bs";
 import "./MenuBottomBar.css";
+import { NavLink } from "react-router-dom";
 
 const MenuBottomBar = () => {
   useEffect(() => {
@@ -45,57 +46,69 @@ const MenuBottomBar = () => {
           <div className="navigation">
             <ul>
               <li className="list active">
-                <a href="#">
+                <div className="a">
                   <span className="icon">
-                    <AiFillHome></AiFillHome>
+                    <NavLink to="/">
+                      <AiFillHome></AiFillHome>
+                    </NavLink>
                   </span>
 
                   <span className="text">Home</span>
-                </a>
+                </div>
               </li>
               <li className="list">
-                <a href="#">
+                <div className="a">
                   <span className="icon">
-                    <FaUserAlt></FaUserAlt>
+                    <NavLink to="/About">
+                      <FaUserAlt></FaUserAlt>
+                    </NavLink>
                   </span>
 
                   <span className="text">About</span>
-                </a>
+                </div>
               </li>
               <li className="list">
-                <a href="#">
+                <div className="a">
                   <span className="icon">
-                    <FaTools></FaTools>
+                    <NavLink to="/Skills">
+                      <FaTools></FaTools>
+                    </NavLink>
                   </span>
 
                   <span className="text">Skills</span>
-                </a>
+                </div>
               </li>
               <li className="list">
-                <a href="#">
+                <div className="a">
                   <span className="icon">
-                    <AiFillSetting></AiFillSetting>
+                    <NavLink to="/Services">
+                      <AiFillSetting></AiFillSetting>
+                    </NavLink>
                   </span>
                   <span className="text">Service</span>
-                </a>
+                </div>
               </li>
               <li className="list">
-                <a href="#">
+                <div className="a">
                   <span className="icon">
-                    <FaBriefcase></FaBriefcase>
+                    <NavLink to="/Projects">
+                      <FaBriefcase></FaBriefcase>
+                    </NavLink>
                   </span>
 
-                  <span className="text">Portfolio</span>
-                </a>
+                  <span className="text">Projects</span>
+                </div>
               </li>
               <li className="list">
-                <a href="#">
+                <div className="a">
                   <span className="icon">
-                    <BsFillChatSquareDotsFill></BsFillChatSquareDotsFill>
+                    <NavLink to="/Contact">
+                      <BsFillChatSquareDotsFill></BsFillChatSquareDotsFill>
+                    </NavLink>
                   </span>
 
                   <span className="text">Contact</span>
-                </a>
+                </div>
               </li>
 
               <div className="indicator"></div>

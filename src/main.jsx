@@ -9,11 +9,13 @@ import SkillsPage from "./Components/SkillsPage/SkillsPage";
 import ServicesPage from "./Components/ServicesPage/ServicesPage";
 import ProjectPage from "./Components/ProjectPage/ProjectPage";
 import ContactPage from "./Components/ContactPage/ContactPage";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 // import Header from "./Components/Header/Header";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

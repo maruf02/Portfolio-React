@@ -20,7 +20,7 @@
   z-index: 1;
 }
 
-.navigation ul li a {
+.navigation ul li .a {
   position: relative;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@
   font-weight: 500;
 }
 
-.navigation ul li a .icon {
+.navigation ul li .a .icon {
   position: relative;
   display: block;
   line-height: 70px;
@@ -39,11 +39,11 @@
   color: #fff;
   transition: 0.5s;
 }
-.navigation ul li.active a .icon {
+.navigation ul li.active .a .icon {
   transform: translateY(-23px);
 }
 
-.navigation ul li a .text {
+.navigation ul li .a .text {
   position: absolute;
   color: #fff;
   font-size: 0.8em;
@@ -54,7 +54,7 @@
   transition: 0.5s;
 }
 
-.navigation ul li.active a .text {
+.navigation ul li.active .a .text {
   opacity: 1;
 }
 
@@ -104,14 +104,14 @@
     display: flex;
     width: 340px;
   }
-  .navigation ul li a .text {
+  .navigation ul li .a .text {
     font-size: 0.7em;
   }
-  .navigation ul li a .icon {
+  .navigation ul li .a .icon {
     line-height: 70px;
     font-size: 1.3em;
   }
-  .navigation ul li.active a .icon {
+  .navigation ul li.active .a .icon {
     transform: translateY(-18px);
   }
   .indicator {
