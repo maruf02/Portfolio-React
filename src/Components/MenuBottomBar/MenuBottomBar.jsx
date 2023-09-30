@@ -19,30 +19,6 @@ const MenuBottomBar = () => {
   }, []);
   return (
     <div>
-      {/* previous */}
-      {/* <div className="flex fixed  bottom-0  w-full h-10 items-center justify-center bg-gradient-to-r from-[#114250] to-[#131514]   z-50 lg:hidden ">
-        <div className="container mx-auto  w-11/12  items-center justify-center flex flex-wrap gap-5 md:gap-10 ">
-          <a className="text-2xl" href="#">
-            <AiFillHome></AiFillHome>
-          </a>
-          <a className="text-2xl" href="#About">
-            <FaUserAlt></FaUserAlt>
-          </a>
-          <a className="text-2xl" href="#Skills">
-            <FaTools></FaTools>
-          </a>
-          <a className="text-2xl" href="#Services">
-            <AiFillSetting></AiFillSetting>
-          </a>
-          <a className="text-2xl" href="#Portfolio">
-            <FaBriefcase></FaBriefcase>
-          </a>
-          <a className="text-2xl" href="#Contact">
-            <BsFillChatSquareDotsFill></BsFillChatSquareDotsFill>
-          </a>
-        </div>
-      </div> */}
-      {/* previous */}
       {/* new */}
       <div className="flex fixed  bottom-0  w-full h-10 items-center justify-center bg-gradient-to-r from-[#114250] to-[#131514]   z-50 lg:hidden ">
         <div className="container mx-auto  w-11/12  items-center justify-center flex flex-wrap gap-5 md:gap-10 ">

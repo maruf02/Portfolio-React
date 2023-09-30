@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ProjectsAllCards from "../ProjectsAllCards/ProjectsAllCards";
+// import ProjectsAllCards from "../ProjectsAllCards/ProjectsAllCards";
 import ProjectCategoryCard from "../ProjectCategoryCard/ProjectCategoryCard";
 
 const ProjectCategory = ({ setSearchText }) => {

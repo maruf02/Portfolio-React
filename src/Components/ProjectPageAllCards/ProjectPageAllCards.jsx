@@ -38,9 +38,6 @@ const ProjectPageAllCards = ({ searchText }) => {
             <ProjectCard key={card.id} card={card}></ProjectCard>
           ))}
         </div>
-
-        {/* sfsfs */}
-        {/* sfsfs */}
       </section>
     </div>
   );

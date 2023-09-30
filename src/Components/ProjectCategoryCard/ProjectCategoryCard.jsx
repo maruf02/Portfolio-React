@@ -11,12 +11,6 @@ const ProjectCategoryCard = ({ card, onCategoryClick }) => {
 
   return (
     <div>
-      {/* <div
-        className="btn btn-white tab-active pt-1 text-xl "
-        data-name={category_title}
-      >
-        {category_title}
-      </div> */}
       <div className="outer relative  h-12 w-40 rounded-[50px] mt-3 -top-2 left-10">
         <button
           onClick={handleSearch}

@@ -1,7 +1,7 @@
 import React from "react";
 
 import IconAnime from "../IconAnime/IconAnime";
-import MernTypeAnime from "./MernTypeAnime";
+// import MernTypeAnime from "./MernTypeAnime";
 
 const BannerIntro = () => {
   return (
@@ -10,8 +10,8 @@ const BannerIntro = () => {
         <div className="text-5xl font-bold text-white text-center lg:text-left pt-0 lg:pt-24 pb-4 ">
           Maruf
         </div>
-        <div className=" textDevs text-xl text-center lg:text-left font-extralight text-gray-300 pb-2">
-          <MernTypeAnime></MernTypeAnime>
+        <div className=" textDev text-xl text-center lg:text-left font-extralight text-gray-300 pb-2">
+          MERN Stack Developer
         </div>
         <hr className=" w-11/12 lg:w-8/12 lg:justify-start h-2 pb-6 mx-auto lg:mx-0" />
         <div className=" w-11/12 text-sm text-center lg:text-left font-thin text-gray-300 pb-4">
@@ -30,23 +30,7 @@ const BannerIntro = () => {
         </div>
         {/* banner intro icon list */}
         {/* banner intro icon list */}
-        {/* <div className="mx-auto pt-6  container lg:-ml-36 text-center justify-center flex gap-4 ">
-          <a href="">
-            <BsFacebook className="text-2xl"></BsFacebook>
-          </a>
-          <a href="">
-            <BsInstagram className="text-2xl"></BsInstagram>
-          </a>
-          <a href="">
-            <BsTwitter className="text-2xl"></BsTwitter>
-          </a>
-          <a href="">
-            <BsLinkedin className="text-2xl"></BsLinkedin>
-          </a>
-          <a href="">
-            <BsGithub className="text-2xl"></BsGithub>
-          </a>
-        </div> */}
+
         <IconAnime></IconAnime>
         {/* <!-- draw line for mobile --> */}
         <p className="border-b-2 my-6 w-11/12 mx-auto md:hidden"></p>

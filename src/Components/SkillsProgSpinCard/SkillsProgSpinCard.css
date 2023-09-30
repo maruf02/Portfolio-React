@@ -54,10 +54,6 @@
   transform: rotate(calc(((var(--ii) - 50) * 0.01turn)));
 }
 
-/* .container .progress::before {
-    background: var(--clr);
-    transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
-} */
 .progress.less::before {
   background: #444;
   transform: rotate(calc(((var(--ii) - 0) * 0.01turn)));

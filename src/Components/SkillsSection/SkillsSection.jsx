@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./SkillsSection.css";
 import SkillsProgSpin from "../SkillsProgSpin/SkillsProgSpin";
 import SkillsSOftProgs from "../SkillsSOftProgs/SkillsSOftProgs";
-import SkillsOthers from "../SkillsOthers/SkillsOthers";
+// import SkillsOthers from "../SkillsOthers/SkillsOthers";
 
 const SkillsSection = () => {
   return (

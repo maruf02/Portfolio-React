@@ -37,22 +37,22 @@ const BannerClient = () => {
         <div className="my-10"></div>
         <div className="pl-10 text-gray-300 text-xl font-bold">
           <div>
-            <h1 id="experience">3 +</h1>
+            <h1 id="experience">1 +</h1>
             <hr className="w-10/12 my-2" />
             <h3 className="font-bold text-xl pb-6">Years of experience</h3>
           </div>
           <div>
-            <h1 id="clients">20 +</h1>
+            <h1 id="clients">10 +</h1>
             <hr className="w-6/12 my-2" />
             <h3 className="font-bold text-xl pb-6">Happy clients</h3>
           </div>
           <div>
-            <h1 id="projects">50 +</h1>
+            <h1 id="projects">20 +</h1>
             <hr className="w-9/12 my-2" />
             <h3 className="font-bold text-xl pb-6">Projects completed</h3>
           </div>
           <div>
-            <h1 id="screens">200 +</h1>
+            <h1 id="screens">100 +</h1>
             <hr className="w-4/12 my-2" />
             <h3 className="font-bold text-xl pb-6">Screens</h3>
           </div>

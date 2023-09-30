@@ -18,18 +18,6 @@ const ProjectPage = () => {
         </section>
         <ProjectCategory setSearchText={setSearchText}></ProjectCategory>
         <ProjectPageAllCards searchText={searchText}></ProjectPageAllCards>
-        {/* <section className=" mx-auto w-full  pt-16   ">
-          <div className=" flex justify-center ">
-            <div className="outer relative  h-12 w-56 rounded-lg mt-3  ">
-              <button
-                className="btnn absolute top-[50%] left-[50%] bg-[#34347f] text-white outline-none 
-                          border-none text-xl font-bold z-[9] tracking-[1px] uppercase cursor-pointer h-[44px] w-[218px] rounded-lg "
-              >
-                See All Project
-              </button>
-            </div>
-          </div>
-        </section> */}
       </section>
     </div>
   );

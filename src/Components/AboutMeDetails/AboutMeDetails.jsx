@@ -1,7 +1,7 @@
 import React from "react";
 import ProPicAnime from "../ProPicAnime/ProPicAnime";
 import IconAnime from "../IconAnime/IconAnime";
-import MernTypeAnime from "../BannerIntro/MernTypeAnime";
+// import MernTypeAnime from "../BannerIntro/MernTypeAnime";
 
 const AboutMeDetails = () => {
   return (
@@ -11,8 +11,8 @@ const AboutMeDetails = () => {
           <h1 className="text-[#1affc6] text-6xl  font-f font-bold pb-5">
             About Me
           </h1>
-          <h3 className="text-[#79d2a6] text-2xl lg:text-3xl  font-f font-semibold pb-5">
-            <MernTypeAnime></MernTypeAnime>
+          <h3 className="textDev text-[#79d2a6] text-2xl lg:text-3xl  font-f font-semibold pb-5">
+            MERN Stack Developer
           </h3>
           <p className="text-[#669999] text-base text-justify px-2">
             As a web developer, I am a perpetual explorer of the digital realm,
@@ -36,13 +36,6 @@ const AboutMeDetails = () => {
           {/* icon section */}
 
           <div className="w-48 h-fit  text-center  rounded-full mt-5  mx-auto  lg:mx-0">
-            {/* <button
-              className=" p-2 w-full text-base text-[#1affc6] hover:bg-gray-400 hover:rounded-full hover:text-black  "
-              onClick={() => document.getElementById("my_modal_1").showModal()}
-            >
-              See more
-            </button> */}
-
             <div className="outer relative  h-12 w-40 rounded-[50px] mt-3 -top-2 left-2">
               <button
                 className="btnn absolute top-[50%] left-[50%] bg-[#34347f] text-white outline-none

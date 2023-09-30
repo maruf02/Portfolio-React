@@ -10,7 +10,7 @@ const ProjectsAllCards = ({ searchText }) => {
       .then((data) => setAllCard(data));
   }, []);
 
-  console.log("objecssst", searchText);
+  // console.log("objecssst", searchText);
 
   const filterCards = () => {
     if (searchText === "All") {
@@ -40,9 +40,6 @@ const ProjectsAllCards = ({ searchText }) => {
             <ProjectCard key={card.id} card={card}></ProjectCard>
           ))}
         </div>
-
-        {/* sfsfs */}
-        {/* sfsfs */}
       </section>
     </div>
   );

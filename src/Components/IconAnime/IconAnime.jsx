@@ -8,7 +8,7 @@ import {
   BsGithub,
   BsSkype,
 } from "react-icons/bs";
-import { TbBrandFiverr, TbBrandUpwork } from "react-icons/tb";
+import { TbBrandFiverr } from "react-icons/tb";
 import { SiUpwork } from "react-icons/si";
 
 const IconAnime = () => {
