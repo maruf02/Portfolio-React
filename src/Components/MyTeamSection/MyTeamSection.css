@@ -7,12 +7,7 @@
   transition: 1s;
   border: 2px solid white;
 }
-.textDev {
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 10s, cursor 0.4s step-end infinite alternate;
-}
+
 @keyframes cursor {
   50% {
     border-color: transparent;

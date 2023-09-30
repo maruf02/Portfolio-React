@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { AiFillHome, AiFillSetting } from "react-icons/ai";
 import { FaUserAlt, FaTools, FaBriefcase } from "react-icons/fa";
 import { BsFillChatSquareDotsFill } from "react-icons/bs";
@@ -6,6 +6,9 @@ import "./MenuBottomBar.css";
 import { NavLink } from "react-router-dom";
 
 const MenuBottomBar = () => {
+  // const [isNavbarHidden, setIsNavbarHidden] = useState(false);
+  // useEffect(() => {}, []);
+
   useEffect(() => {
     const list = document.querySelectorAll(".list");
     function activeLink() {

@@ -52,7 +52,7 @@ const MyTeamSection = () => {
               <div className="rounded-full p-2 border-4 border-solid border-white">
                 <img
                   className="rounded-full h-52 w-52 object-cover"
-                  src="https://maruf02.github.io/Asset-Json-Img-dont-delete/PortfolioImage/pp.jpg"
+                  src="https://maruf02.github.io/Asset-Json-Img-dont-delete/PortfolioImage/marfatAV.jpg"
                 />
               </div>
             </div>
@@ -106,7 +106,7 @@ const MyTeamSection = () => {
               <div className="rounded-full p-2 border-4 border-solid border-white">
                 <img
                   className="rounded-full h-52 w-52 object-cover"
-                  src="https://maruf02.github.io/Asset-Json-Img-dont-delete/PortfolioImage/pp.jpg"
+                  src="https://maruf02.github.io/Asset-Json-Img-dont-delete/PortfolioImage/masumaAV.png"
                 />
               </div>
             </div>
@@ -160,7 +160,7 @@ const MyTeamSection = () => {
               <div className="rounded-full p-2 border-4 border-solid border-white">
                 <img
                   className="rounded-full h-52 w-52 object-cover"
-                  src="https://maruf02.github.io/Asset-Json-Img-dont-delete/PortfolioImage/pp.jpg"
+                  src="https://maruf02.github.io/Asset-Json-Img-dont-delete/PortfolioImage/sagar.jpg"
                 />
               </div>
             </div>
@@ -214,7 +214,7 @@ const MyTeamSection = () => {
               <div className="rounded-full p-2 border-4 border-solid border-white">
                 <img
                   className="rounded-full h-52 w-52 object-cover"
-                  src="https://maruf02.github.io/Asset-Json-Img-dont-delete/PortfolioImage/pp.jpg"
+                  src="https://maruf02.github.io/Asset-Json-Img-dont-delete/PortfolioImage/abbas.jpg"
                 />
               </div>
             </div>

@@ -10,7 +10,7 @@ import ServicesPage from "./Components/ServicesPage/ServicesPage";
 import ProjectPage from "./Components/ProjectPage/ProjectPage";
 import ContactPage from "./Components/ContactPage/ContactPage";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
-// import Header from "./Components/Header/Header";
+import ProjectLiveShow from "./Components/ProjectLiveShow/ProjectLiveShow";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -40,6 +40,14 @@ const router = createBrowserRouter([
       {
         path: "/Contact",
         element: <ContactPage></ContactPage>,
+      },
+      {
+        path: "/Projects/:id",
+        element: <ProjectLiveShow></ProjectLiveShow>,
+        loader: () =>
+          fetch(
+            "https://maruf02.github.io/Asset-Json-Img-dont-delete/Projects.json"
+          ),
       },
     ],
   },

@@ -1,14 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import MenuBarList from "../MenuBarList/MenuBarList";
 import MenuBottomBar from "../MenuBottomBar/MenuBottomBar";
 
 const MenuBar = () => {
   return (
     <div>
-      <h1>fsf</h1>
-      <nav className="bg-gradient-to-r from-[#114250] to-[#131514] flex  w-full items-center fixed h-16 lg:h-20 top-0  z-50  ">
+      <nav className=" bg-gradient-to-r from-[#114250] to-[#131514] flex  w-full items-center fixed top-0  z-50 h-16 lg:h-20 ">
         <div className="container mx-auto w-11/12 flex  justify-between  sm:hidden lg:inline-flex">
-          {/* <!-- logo for only small device --> */}
+          {/* <!-- logo for only small device  fixed top-0  z-50 --> */}
           <div className="container mx-auto  md:hidden">
             <h2 className="text-4xl  text-center font-f text-[#53c9e0] ">
               MARUF

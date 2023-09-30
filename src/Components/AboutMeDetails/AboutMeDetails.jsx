@@ -1,6 +1,7 @@
 import React from "react";
 import ProPicAnime from "../ProPicAnime/ProPicAnime";
 import IconAnime from "../IconAnime/IconAnime";
+import MernTypeAnime from "../BannerIntro/MernTypeAnime";
 
 const AboutMeDetails = () => {
   return (
@@ -11,7 +12,7 @@ const AboutMeDetails = () => {
             About Me
           </h1>
           <h3 className="text-[#79d2a6] text-2xl lg:text-3xl  font-f font-semibold pb-5">
-            Mern Stack Developer
+            <MernTypeAnime></MernTypeAnime>
           </h3>
           <p className="text-[#669999] text-base text-justify px-2">
             As a web developer, I am a perpetual explorer of the digital realm,

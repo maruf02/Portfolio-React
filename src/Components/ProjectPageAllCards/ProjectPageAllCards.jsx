@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
-const ProjectsAllCards = ({ searchText }) => {
+const ProjectPageAllCards = ({ searchText }) => {
   const [allcard, setAllCard] = useState([]);
   const [displayCard, setDisplayCard] = useState([]);
   useEffect(() => {
@@ -9,8 +9,6 @@ const ProjectsAllCards = ({ searchText }) => {
       .then((res) => res.json())
       .then((data) => setAllCard(data));
   }, []);
-
-  console.log("objecssst", searchText);
 
   const filterCards = () => {
     if (searchText === "All") {
@@ -36,7 +34,7 @@ const ProjectsAllCards = ({ searchText }) => {
     <div>
       <section className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-5 lg:gap-12 ">
-          {displayCard.slice(0, 6).map((card) => (
+          {displayCard.map((card) => (
             <ProjectCard key={card.id} card={card}></ProjectCard>
           ))}
         </div>
@@ -48,4 +46,4 @@ const ProjectsAllCards = ({ searchText }) => {
   );
 };
 
-export default ProjectsAllCards;
+export default ProjectPageAllCards;

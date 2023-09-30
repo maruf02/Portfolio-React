@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectCard.css";
+import { Link } from "react-router-dom";
 const ProjectCard = ({ card }) => {
   const { id, project_title, category, img, description } = card;
   return (
@@ -26,14 +27,16 @@ const ProjectCard = ({ card }) => {
                 </p>
               </div>
               {/* ****************** */}
-              <div className="outer relative  h-12 w-56 rounded-[50px] mt-3 -top-2 left-10">
-                <button
-                  className="btnn absolute top-[50%] left-[50%] bg-[#34347f] text-white outline-none
+              <Link to={`/Projects/${id}`}>
+                <div className="outer relative  h-12 w-56 rounded-[50px] mt-3 -top-2 left-10">
+                  <button
+                    className="btnn absolute top-[50%] left-[50%] bg-[#34347f] text-white outline-none
                           border-none text-xl z-[9] tracking-[1px] uppercase cursor-pointer h-[44px] w-[218px] rounded-[50px]"
-                >
-                  Live/Demo
-                </button>
-              </div>
+                  >
+                    Live/Demo
+                  </button>
+                </div>
+              </Link>
               {/* ****************** */}
             </div>
           </div>

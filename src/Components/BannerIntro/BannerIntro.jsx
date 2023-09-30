@@ -1,6 +1,7 @@
 import React from "react";
 
 import IconAnime from "../IconAnime/IconAnime";
+import MernTypeAnime from "./MernTypeAnime";
 
 const BannerIntro = () => {
   return (
@@ -9,8 +10,8 @@ const BannerIntro = () => {
         <div className="text-5xl font-bold text-white text-center lg:text-left pt-0 lg:pt-24 pb-4 ">
           Maruf
         </div>
-        <div className=" textDev text-xl text-center lg:text-left font-extralight text-gray-300 pb-2">
-          MERN stack developer
+        <div className=" textDevs text-xl text-center lg:text-left font-extralight text-gray-300 pb-2">
+          <MernTypeAnime></MernTypeAnime>
         </div>
         <hr className=" w-11/12 lg:w-8/12 lg:justify-start h-2 pb-6 mx-auto lg:mx-0" />
         <div className=" w-11/12 text-sm text-center lg:text-left font-thin text-gray-300 pb-4">

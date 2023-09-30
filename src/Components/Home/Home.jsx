@@ -10,6 +10,7 @@ import ContactSection from "../ContactSection/ContactSection";
 const Home = () => {
   return (
     <div>
+      <button id="myBtn">&#8593;</button>
       <BannerSection></BannerSection>
       <AboutMeSection></AboutMeSection>
       <SkillsSection></SkillsSection>
