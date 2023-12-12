@@ -1,6 +1,7 @@
 import React from "react";
 import ProPicAnime from "../ProPicAnime/ProPicAnime";
 import IconAnime from "../IconAnime/IconAnime";
+import { FaAngleDoubleRight } from "react-icons/fa";
 // import MernTypeAnime from "../BannerIntro/MernTypeAnime";
 
 const AboutMeDetails = () => {
@@ -31,10 +32,23 @@ const AboutMeDetails = () => {
             enthusiastic about contributing my skills to projects that make a
             difference and create a better online world for all.
           </p>
-          {/* icon section */}
+          <h3 className="textDev text-[#79d2a6] text-2xl underline lg:text-3xl pt-8 font-f font-semibold pb-5">
+            Education:
+          </h3>
+          <h3 className="textDev text-[#79d2a6] text-2xl  lg:text-3xl font-f font-semibold pl-5 ">
+            BSc In CSE
+          </h3>
+          <h3 className="textDev text-[#79d2a6] text-lg  lg:text-lg font-f  font-semibold pb-5 hidden md:block pl-5 ">
+            Bangladesh University Of Business and Technology (BUBT)
+          </h3>
+          <h3 className="textDev text-[#79d2a6] text-sm  lg:text-lg   font-f font-semibold pb-5 flex md:hidden  pl-5">
+            <FaAngleDoubleRight className="mt-1" /> Bangladesh University Of
+            <br />
+            Business and Technology (BUBT)
+          </h3>
+
           <IconAnime></IconAnime>
           {/* icon section */}
-
           <div className="w-48 h-fit  text-center  rounded-full mt-5  mx-auto  lg:mx-0">
             <div className="outer relative  h-12 w-40 rounded-[50px] mt-3 -top-2 left-2">
               <button
