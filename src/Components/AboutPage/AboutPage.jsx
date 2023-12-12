@@ -12,7 +12,7 @@ const AboutPage = () => {
         </section>
         <section className="container mx-auto  h-full mb-4">
           <section className=" w-full grid grid-cols-2 lg:grid-cols-3">
-            <section className=" col-span-2 h-full relative -top-20">
+            <section className=" col-span-2 h-full relative -top-10">
               <AboutMeDetails></AboutMeDetails>
             </section>
             <section className=" h-full">

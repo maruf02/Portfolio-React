@@ -9,10 +9,10 @@ const BannerClient = () => {
       const screensElement = document.getElementById("screens");
 
       const obj = {
-        ex: [0, 3],
-        cl: [0, 20],
-        pr: [0, 50],
-        sc: [0, 200],
+        ex: [0, 1],
+        cl: [0, 10],
+        pr: [0, 10],
+        sc: [0, 50],
       };
 
       setInterval(() => {

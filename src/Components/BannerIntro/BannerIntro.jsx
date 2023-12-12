@@ -1,9 +1,23 @@
 import React from "react";
-
+import { FaDownload } from "react-icons/fa";
 import IconAnime from "../IconAnime/IconAnime";
 // import MernTypeAnime from "./MernTypeAnime";
+import resume from "../../assets/Resume-Rashiduzzaman.pdf";
 
 const BannerIntro = () => {
+  const handleDownload = () => {
+    // Replace 'your_resume_url.pdf' with the URL of your PDF resume
+    const resumeUrl = { resume };
+
+    // Initiate download using anchor tag
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.setAttribute("download", "Resume-Rashiduzzaman.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div>
       <section className="">
@@ -25,7 +39,17 @@ const BannerIntro = () => {
                           border-none text-lg z-[9] tracking-[1px]  cursor-pointer h-[44px] w-[315px] rounded-[50px]
                           hover:bg-lime-500"
           >
-            Let's Work Together
+            <a href="mailto:rashiduzzaman99@gmail.com">Let's Work Together</a>
+          </button>
+        </div>
+        <div className="outer relative flex flex-row h-12 w-80 rounded-[50px] mt-3 -top-2 left-2">
+          <button
+            className="btnn absolute top-[50%] left-[50%] bg-[#34347f] text-white outline-none
+                          border-none text-lg z-[9] tracking-[1px]  cursor-pointer h-[44px] w-[315px] rounded-[50px]
+                          hover:bg-lime-500"
+            onClick={handleDownload}
+          >
+            Resume
           </button>
         </div>
         {/* banner intro icon list */}

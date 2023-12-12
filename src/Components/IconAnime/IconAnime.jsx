@@ -18,25 +18,28 @@ const IconAnime = () => {
         <ul className="wrapper">
           <li className="icon facebook">
             <span className="tooltip">Facebook</span>
-            <a href="#">
+            <a href="https://www.facebook.com/Sargas.k20/" target="_blank">
               <BsFacebook className="text-2xl"></BsFacebook>
             </a>
           </li>
           <li className="icon linkedin">
             <span className="tooltip">Linkedin</span>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/marufk20/" target="_blank">
               <BsLinkedin className="text-2xl"></BsLinkedin>
             </a>
           </li>
           <li className="icon skype">
             <span className="tooltip">Skype</span>
-            <a href="#">
+            <a
+              href="https://join.skype.com/invite/VbRAKre1o36g"
+              target="_blank"
+            >
               <BsSkype className="text-2xl"></BsSkype>
             </a>
           </li>
           <li className="icon github">
             <span className="tooltip">Github</span>
-            <a href="#">
+            <a href="https://github.com/maruf02" target="_blank">
               <BsGithub className="text-2xl"></BsGithub>
             </a>
           </li>
@@ -58,13 +61,13 @@ const IconAnime = () => {
           </li>
           <li className="icon instagram">
             <span className="tooltip">Instagram</span>
-            <a href="#">
+            <a href="https://www.instagram.com/sargas.k20/" target="_blank">
               <BsInstagram className="text-2xl"></BsInstagram>
             </a>
           </li>
           <li className="icon twitter">
             <span className="tooltip">Twitter</span>
-            <a href="#">
+            <a href="https://twitter.com/Marufk20" target="_blank">
               <BsTwitter className="text-2xl"></BsTwitter>
             </a>
           </li>
